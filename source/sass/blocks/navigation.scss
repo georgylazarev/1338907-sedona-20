@@ -1,17 +1,30 @@
 .navigation {
-
+  width: 100%;
 }
 
 .navigation__list {
-
+background-color: #81B3D2;
+list-style: none;
+margin: 0;
+padding: 0;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.2) 100%),
+            linear-gradient(#81B3D2 0, #81B3D2 100%);
 }
 
 .navigation__item {
-
+  text-align: center;
+  box-shadow: 0px 1px 0px rgba(1, 1, 1, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+  margin-top: 1px;
+  padding: 10px 0 5px;
 }
 
 .navigation__link {
-
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .navigation__link--current {
