@@ -120,23 +120,25 @@
         <p class="video__intro-slim">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
 
         <div class="video__player">
-          <button class="video__button video__button--restart" type="button">
-            <span class="visually-hidden">Заново</span>
-          </button>
+          <div class="video__control">
+            <button class="video__button video__button--restart" type="button">
+              <span class="visually-hidden">Заново</span>
+            </button>
 
-          <div class="video__progress">
-            <div class="video__scale">
-              <div class="video__bar"></div>
+            <div class="video__progress">
+              <div class="video__scale">
+                <div class="video__bar"></div>
+              </div>
+              <button class="video__toggle" type="button"></button>
             </div>
-            <button class="video__toggle" type="button"></button>
-          </div>
 
-          <button class="video__button video__button--cc" type="button">
-            <span class="visually-hidden">Субтитры</span>
-          </button>
-          <button class="video__button video__button--fullscreen" type="button">
-            <span class="visually-hidden">Развернуть</span>
-          </button>
+            <button class="video__button video__button--cc" type="button">
+              <span class="visually-hidden">Субтитры</span>
+            </button>
+            <button class="video__button video__button--fullscreen" type="button">
+              <span class="visually-hidden">Развернуть</span>
+            </button>
+          </div>
         </div>
 
       </section>
