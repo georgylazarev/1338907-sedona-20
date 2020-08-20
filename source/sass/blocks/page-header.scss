@@ -1,8 +1,8 @@
 
 .page-header {
-  display: flex;
   flex-direction: column;
   align-items: flex-end;
+  display: flex;
 }
 
 .page-header__logo-link {
@@ -19,14 +19,24 @@
   order: 3;
   width: 22px;
   height: 22px;
+  padding: 0;
   margin: 17px 0;
   margin-right: 20px;
-  border: 0;
+  cursor: pointer;
   background: none;
-  background-image: url("../img/icon-menu.svg");
-  background-size: contain;
+  background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='Layer_1' fill='#81B3D2' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='22.928px' height='21.982px' viewBox='0 0 22.928 21.982' enable-background='new 0 0 22.928 21.982' xml:space='preserve'%3E%3Cg%3E%3Crect width='22.928' height='3.964'/%3E%3Crect y='9.009' width='22.928' height='3.964'/%3E%3Crect y='18.018' width='22.928' height='3.964'/%3E%3C/g%3E%3C/svg%3E%0A");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
+  border: 0;
+}
+
+.page-header__menu-button:hover {
+  opacity: 0.6;
+}
+
+.page-header__menu-button:active {
+  opacity: 0.3;
 }
 
 .page-header__navigation {
