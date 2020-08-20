@@ -1,13 +1,12 @@
 .welcome {
-  background: url("../img/bg-intro-triangle-mobile.svg"),
-              url("../img/bg-back-mobile@1x.jpg");
-  background-size: 105%, cover;
-  background-position: bottom center, center;
-  background-repeat: no-repeat;
-  display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
   padding: 90px 0 85px;
+  background: url("../img/bg-intro-triangle-mobile.svg"), url("../img/bg-back-mobile@1x.jpg");
+  background-position: bottom center, center;
+  background-repeat: no-repeat;
+  background-size: 105%, cover;
 }
 
 .welcome__intro {
