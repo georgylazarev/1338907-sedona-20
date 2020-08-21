@@ -1,5 +1,9 @@
 .page-footer {
-
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  padding-top: 38px;
+  padding-bottom: 23px;
 }
 
 .page-footer__hashtag-link {
@@ -7,6 +11,7 @@
   font-weight: bold;
   line-height: 26px;
   color: #000000;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 }
