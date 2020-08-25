@@ -35,20 +35,20 @@
   text-decoration: none;
   text-transform: uppercase;
   background: #81B3D2;
-}
 
-.search__link:hover {
-  background-color: #669EC0;
-}
+  &:hover {
+    background-color: #669EC0;
+  }
 
-.search__link:active {
-  background-color: #5496BD;
+  &:active {
+    background-color: #5496BD;
+  }
+
+  &:disabled {
+    background-color: #E5E5E5;
+  }
 }
 
 .search__link:active .search__link-text {
   opacity: 0.3;
-}
-
-.search__link:disabled {
-  background-color: #E5E5E5;
 }

@@ -29,14 +29,14 @@
   background-repeat: no-repeat;
   background-size: contain;
   border: 0;
-}
 
-.page-header__menu-button:hover {
-  opacity: 0.6;
-}
+  &:hover {
+    opacity: 0.6;
+  }
 
-.page-header__menu-button:active {
-  opacity: 0.3;
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .page-header__navigation {
