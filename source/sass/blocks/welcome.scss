@@ -1,16 +1,29 @@
 .welcome {
-  justify-content: center;
-  align-items: center;
+  // justify-content: center;
+  // align-items: center;
+  position: relative;
   display: flex;
   padding: 90px 0 85px;
-  background: url("../img/bg-intro-triangle-mobile.svg"), url("../img/bg-back-mobile@1x.jpg");
-  background-position: bottom center, center;
+  background: url("../img/bg-back-mobile@1x.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover, cover;
+  background-size: cover;
+
+  &::after {
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    height: 40px;
+    background: url("../img/bg-intro-triangle-mobile.svg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+  }
 }
 
 .welcome__intro {
   &--main-page {
-
+    margin: 0 auto;
   }
 }
