@@ -7,12 +7,22 @@ padding: 0;
 margin: 0;
 list-style: none;
 background: linear-gradient(180deg, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.2) 100%), linear-gradient(#81B3D2 0, #81B3D2 100%);
+
+  &--open {
+    display: block;
+  }
+
+  &--close {
+    display: none;
+  }
+
 }
 
 .navigation__item {
   margin-top: 1px;
   box-shadow: 0px 1px 0px rgba(1, 1, 1, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.2);
   background-color: #81B3D2;
+  height: 55px;
 
   &:nth-child(1) {
     box-shadow: 0px 1px 0px rgba(1, 1, 1, 0.2);
@@ -46,5 +56,38 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.2) 100
 
   &--current {
 
+  }
+}
+
+.navigation__menu-button {
+  position: absolute;
+  top: 17px;
+  right: 16px;
+  z-index: 3;
+  order: 3;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 0;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  &--open {
+    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='Layer_1' fill='#81B3D2' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='22.928px' height='21.982px' viewBox='0 0 22.928 21.982' enable-background='new 0 0 22.928 21.982' xml:space='preserve'%3E%3Cg%3E%3Crect width='22.928' height='3.964'/%3E%3Crect y='9.009' width='22.928' height='3.964'/%3E%3Crect y='18.018' width='22.928' height='3.964'/%3E%3C/g%3E%3C/svg%3E%0A");
+  }
+
+  &--close {
+    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='Layer_1' fill='#FFFFFF' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='22.199px' height='22.199px' viewBox='0 0 22.199 22.199' enable-background='new 0 0 22.199 22.199' xml:space='preserve'%3E%3Cpolygon points='22.199,2.804 19.396,0 11.1,8.297 2.804,0 0,2.803 8.297,11.1 0,19.396 2.803,22.199 11.1,13.902 19.396,22.199 22.199,19.396 13.903,11.1 '/%3E%3C/svg%3E");
   }
 }
