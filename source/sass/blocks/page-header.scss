@@ -1,0 +1,27 @@
+
+.page-header {
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+  position: relative;
+}
+
+.page-header__logo-link {
+  order: 2;
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  margin-left: -51px;
+  line-height: 0;
+}
+
+.page-header__logo {
+
+}
+
+.page-header__navigation {
+  order: 1;
+  margin-bottom: 56px;
+}
