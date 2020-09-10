@@ -1,0 +1,71 @@
+.feedback {}
+.feedback__form {}
+.feedback__fieldset {}
+
+.feedback__legend {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.feedback__label {}
+
+.feedback__description {
+  line-height: 26px;
+}
+
+.feedback__description--slim {
+  font-size: 14px;
+  color: #333333;
+  text-transform: uppercase;
+}
+.feedback__description--bold {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.feedback__text-input {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.feedback__phone-input {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.feedback__email-input {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.feedback__textarea-label {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.feedback__textarea {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.feedback__submit-button {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.feedback__required-description {
+  line-height: 26px;
+  color: #333333;
+  text-transform: uppercase;
+}
