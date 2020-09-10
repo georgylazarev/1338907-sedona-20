@@ -1,0 +1,54 @@
+.gallery {}
+
+.gallery__header {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+  text-transform: uppercase;
+
+}
+
+.gallery__description {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.gallery__list {}
+
+.gallery__item {}
+
+.gallery__item--top {}
+
+.gallery__photo-link {}
+
+.gallery__photo {}
+
+.gallery__photo-description {}
+
+.gallery__first-block {}
+
+.gallery__caption {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.gallery__author {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.gallery__second-block {}
+
+.gallery__like-button {}
+
+.gallery__like-count {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  text-transform: uppercase;
+}
